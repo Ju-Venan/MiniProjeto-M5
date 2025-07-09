@@ -1,25 +1,36 @@
-# EcoAPI Frontend
+# 🌱 EcoAPI Frontend
 
-Frontend em Next.js para visualizar áreas de preservação ambiental usando dados da EcoAPI.
+Frontend em Next.js para visualização de áreas de preservação ambiental consumindo dados da EcoAPI.
 
-## Tecnologias
+---
 
-- Next.js 15
-- React 19
-- Tailwind CSS 4
-- Axios para chamadas HTTP
-- Framer Motion para animações
+## 🧩 O problema
 
-## Funcionalidades
+Sabemos que há inúmeras áreas ambientais espalhadas pelo mundo, cada uma com desafios específicos: desmatamento, poluição, falta de recursos, abandono por parte das autoridades, entre outros.  
+Muitas vezes, não existe um controle organizado sobre essas regiões, dificultando qualquer tipo de assistência e tomada de decisão.
 
-- Listar áreas ambientais, continentes e problemas ambientais
-- Navegação suave e responsiva
-- Animações simples e agradáveis
-- Consumo da API backend via Axios com base na URL em variável de ambiente
+## 💡 A solução
 
-## Como rodar localmente
+Pensando nisso, desenvolvi a **EcoAPI**, uma API REST que permite localizar os lugares com seus problemas específicos para melhor controle.  
+O sistema facilita o controle e o monitoramento dessas regiões, servindo como uma base de dados simples e eficaz que pode ser integrada a outras soluções futuras.
 
-1. Clone o repositório  
-2. Instale dependências:  
+---
+
+## 🚀 Tecnologias
+
+- [Next.js 15]
+- [React 19]
+- [Tailwind CSS 4]
+- [Axios]
+- [Framer Motion]
+
+---
+
+## ⚙️ Como rodar localmente
+
+1. Clone este repositório
+2. Instale as dependências:
+
    ```bash
    npm install
+   npm run dev
