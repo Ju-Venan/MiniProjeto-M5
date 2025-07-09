@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'https://miniprojeto-m4-uwbz.onrender.com';
+const API_BASE_URL = "https://miniprojeto-m4-y3en.onrender.com/";
 
 const api = axios.create({
   baseURL: API_BASE_URL,

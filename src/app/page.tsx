@@ -1,10 +1,10 @@
 import Head from 'next/head';
 import Header from '../components/header';
 import MainSection from '../components/mainSection';
-// import AboutSection from '../components/aboutSection';
-// import AllAreasSection from '../components/allAreasSection';
-// import ContinentsSection from '../components/continentSection';
-// import ProblemsSection from '../components/problemSection';
+import AboutSection from '../components/aboutSection';
+import AllAreasSection from '../components/allAreasSection';
+import ContinentsSection from '../components/continentSection';
+import ProblemsSection from '../components/problemSection';
 import Footer from '../components/footer';
 
 export default function Home() {
@@ -19,10 +19,10 @@ export default function Home() {
 
       <main>
         <MainSection />
-        {/* <AboutSection /> */}
-        {/* <AllAreasSection />
+        <AboutSection />
+        <AllAreasSection />
         <ContinentsSection />
-        <ProblemsSection /> */}
+        <ProblemsSection />
       </main>
 
       <Footer />
